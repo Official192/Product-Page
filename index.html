@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+      <title>Product Page</title>
+      <link rel="stylesheet" href="style.css">
+      <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+
+    <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-success shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+      <main class="container-sm mt-5">
+          <div class="row justify-content-center gap-3 mb-5">
+              <div class="col-11 col-md-8 col-lg-5">
+              <img src="/assets/product.jpg" class="img-fluid" alt="Green Shoes">
+ 
+              
+              <div class="col-2 d-flex gap-3 col-md-4 col-lg-2 mt-3">
+            <img src="/assets/product2.jpeg" class="img-fluid" alt="Green Shoes">
+            <img src="/assets/product3.jpeg" class="img-fluid" alt="Green Shoes">
+            </div>
+              </div>
+         
+          
+              
+              
+              <!-- Detail Section -->
+          <section class="col-11 col-md-8 col-lg-4">
+              <h1>Green Sports Shoes</h1>
+
+              <!-- Rating -->
+              <i class='bx bxs-star text-warning'></i> 
+              <i class='bx bxs-star text-warning'></i> 
+              <i class='bx bxs-star text-warning'></i> 
+              <i class='bx bxs-star text-warning'></i> 
+
+              <div class="d-flex align-items-center gap-3 mb-3">
+              <h2 class="mb-0 h5 mt-2">100$</h2>
+              <span class="discount-span border d-flex align-items-center border-danger p-1">Discount 50%</span>
+              </div>
+              
+              <p>Precision crafted to define the intersection of technology and art.
+                The Onyx edition offers an unparalleled tactile experience with seamless connectivity.</p>
+
+                 <button aria-label="Black color" class="color-btn btn btn-outline-dark rounded-circle shadow active"></button>
+                  <button aria-label="Red color" class="color-btn btn btn-outline-danger rounded-circle shadow active"></button>
+                  <button aria-label="Blue color" class="color-btn btn btn-outline-primary rounded-circle shadow active"></button>
+
+                  <div class="row justify-content-center mt-5">
+                    <div class="col-3 col-md-2 col-lg-4 w-25">
+                  <label for="a" class="pt-1">Quantity</label>
+                  </div>
+
+                  
+                <div class="col-md-3 col-lg-4 col-3">
+                  <input min="1" value="1" class="form-control rounded-pill" id="a" type="number">
+                  </div>
+
+                <div class="col-md-3 text-nowrap col-lg-4 col-4"> 
+                  <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                    
+                 
+              </div>
+        </section>
+      </main>
+      <!-- Main Section End -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+  </body>
+
+  </html>
