@@ -1,25 +1,30 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
-      <title>Product Page</title>
-      <link rel="stylesheet" href="style.css">
-      <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Product Page For E-commerce Websites or pages.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Product Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&opsz=16&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
 
     <!-- navbar -->
-      <nav class="navbar navbar-expand-lg bg-success shadow">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-dark shadow">
+
+      <div class="container">
+        <a class="navbar-brand" href="#">Product Page</a> 
+        <button class="navbar-toggler text-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -32,81 +37,124 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
+
+        <div class="d-flex" role="search">
           <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button class="btn" style="color: white; border: solid white 1px;" type="submit">Search</button>
-        </form>
+          <button class="btn btn-outline-light" type="search">Search</button>
+        </div>
+
       </div>
     </div>
   </nav>
 
-  <!-- Main -->
-      <main class="container-sm mt-5">
-          <div class="row justify-content-center gap-3">
-              <div class="col-11 col-md-8 col-lg-5">
-                 <img src="assets/img/product.jpg" class="img-fluid" alt="Green Shoes Thumbnail view">
 
-                <div class="row mt-2 g-2">
-                  <div class="col-2">
-                    <img src="assets/img/product2.jpeg" class="img-fluid" alt="Green Shoes-2">
-                  </div>
-                  <div class="col-2">
-                     <img src="assets/img/product3.jpeg" class="img-fluid" alt="Green Shoes-3">
-                  </div>
-                </div>
-              </div>
+  <!-- Main -->
+  <main class="container-sm mt-5">
+    <div class="row justify-content-center gap-3">
+
+        <div class="col-11 col-md-4 col-lg-5">
+          <img src="assets/img/product.jpg" id="mainimg" class="img-fluid" alt="Green Shoes Thumbnail view" fetchpriority="high">
+
+          <div class="row mt-2 g-2">
+            <div class="col-3">
+              <img src="assets/img/product_small.jpg" class="subimg img-fluid" alt="Green Shoes Thumbnail view">
+            </div>
+
+            <div class="col-2">
+              <img src="assets/img/product2.jpeg" class="img-fluid subimg" alt="Green Shoes-2">
+            </div>
+
+            <div class="col-2">
+              <img src="assets/img/product3.jpeg" class="img-fluid subimg" alt="Green Shoes-3">
+            </div>
+
+          </div>
+       </div>
 
           
-              <!-- Detail Section -->
-          <section class="col-11 col-md-8 col-lg-4">
-            <ol class="breadcrumb mb-0">
-                  <li class="breadcrumb-item"><a href="" class="text-decoration-none text-success">Footwear</a></li>
-                  <li class="breadcrumb-item active">Sneakers</li>
-              </ol>
+      <!-- Detail Section -->
+      <section class="col-11 col-md-6 col-lg-4">
 
-              <h1 class="display-6 fw-bold">Green Sports Shoes</h1>
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="" class="text-decoration-none text-success">Footwear</a></li>
+          <li class="breadcrumb-item active">Sneakers</li>
+        </ol>
+
+        <h1 class="display-6 fw-bold">Green Sports Shoes</h1>
+
+        
+       <!-- Rating -->
+      <div class="text-warning d-flex mb-0">
+        <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i> <i class='bx bxs-star'></i> 
+        <p class="text-muted ms-2 small mt-1">(124 Reviews)</p>
+      </div>
+
+      <div class="d-flex align-items-center gap-3 mb-3">
+        <span class="mb-0 h4">$50</span>
+        <p class="mb-0 mt-2 text-decoration-line-through">$100</p>
+        <span class="discount-span px-2">50% OFF</span>
+      </div>
+
+        <hr>
               
+      <p>Precision crafted to define the intersection of technology and art. The Onyx edition offers an unparalleled tactile 
+        experience with seamless connectivity.</p>
 
-
-              <!-- Rating -->
-               <div class="text-warning d-flex mb-2">
-              <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i> <i class='bx bxs-star'></i> 
-                <span class="text-muted ms-2 small mt-1">(124 Reviews)</span>
-                </div>
-
-              <div class="d-flex align-items-center gap-3 mb-3">
-                <span class="mb-0 h4 mt-2">$50</span>
-              <span class="mb-0 mt-2 text-decoration-line-through">$100</span>
-              
-              <span class="discount-span border d-flex align-items-center border-danger px-2">50% OFF</span>
-              </div>
-              
-              <p>Precision crafted to define the intersection of technology and art.
-                The Onyx edition offers an unparalleled tactile experience with seamless connectivity.</p>
+        <hr>
                    
-                  <span class="fw-bold">Choose Color</span>
-                  <br>
-                 <button aria-label="Black color" class="color-btn btn btn-outline-dark rounded-circle shadow dark-btn active"></button>
-                  <button aria-label="Red color" class="color-btn btn btn-outline-danger rounded-circle shadow red-btn bg-danger"></button>
-                  <button aria-label="Blue color" class="color-btn btn btn-outline-primary rounded-circle shadow blue-btn bg-primary"></button>
+        <span class="fw-bold">Choose Color</span>
+  
+        <br>
+
+      <button aria-label="Black color" class="color-btn btn btn-dark dark-btn active"></button>
+      <button aria-label="Red color" class="color-btn btn btn-danger bg-danger"></button>
+      <button aria-label="Blue color" class="color-btn btn btn-primary bg-primary"></button>
 
                   
-                  <div class="d-flex align-items-center gap-3 mt-4 mx-4">
+        <div class="d-flex align-items-center justify-content-evenly mt-4">
 
-                  <label for="quantity" class="form-label mb-0">Quantity</label>
-                    <input min="1" max="10" value="1" class="rounded w-25" id="quantity" type="number">
-                      <button class="btn btn-success text-nowrap d-flex p-2"><box-icon class="me-2" name='cart' color='#fcfcfc'></box-icon>Add to Cart</button>
-                  </div>
+          <label for="quantity" class="form-label mb-0">Quantity</label>
+          <input min="1" max="10" value="1" class="rounded w-25" id="quantity" type="number">
+          <button class="cart-btn btn btn-outline-success">Add to Cart<i class="bx bx-cart px-1"></i></button>
 
-        </section>
-      </main>
-      <!-- Main Section End -->
+        </div>
+
+
+        <div class="row features gap-4">
+
+          <div class="col-3 p-1 feature-card pb-0">
+           <i class='bx bxs-truck text-success mt-2'></i>
+            <p class="fs-6 h5">Delivery</p>
+            <p class="small">Receive product in 24 hours.</p>
+          </div>
+
+          <div class="col-3 p-1 feature-card pb-0">
+           <i class='bx bx-timer text-success mt-2'></i>
+            <p class="fs-6 h5">Timing</p>
+            <p class="small">Same-day dispatch available.</p>
+          </div>
+
+          <div class="col-3 p-1 feature-card pb-0">
+           <i class='bx bx-support text-success mt-2'></i>
+            <p class="fs-6 h5">Support</p>
+            <p class="small">24/7 customer service available.</p>
+          </div>
+        </div>
+
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <div class="small-toast" style="display: none;">
+    <p class="toast-text">Product is added to cart</p>
+    <i class="bx bx-check-circle text-success check"></i>
+</div>
       
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-      <script src="script.js"></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 
-  </html>
-
-
+</body>
+</html>
